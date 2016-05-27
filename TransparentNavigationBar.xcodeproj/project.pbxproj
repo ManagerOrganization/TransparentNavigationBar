@@ -15,12 +15,12 @@
 		4C960C481BFEECC90084745E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C960C461BFEECC90084745E /* LaunchScreen.storyboard */; };
 		4C960C531BFEECC90084745E /* TransparentNavigationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C960C521BFEECC90084745E /* TransparentNavigationBarTests.m */; };
 		4C960C5E1BFEECCA0084745E /* TransparentNavigationBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C960C5D1BFEECCA0084745E /* TransparentNavigationBarUITests.m */; };
-		4C960C6D1BFEECF70084745E /* UINavigationBar+Transparent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C960C6C1BFEECF70084745E /* UINavigationBar+Transparent.m */; settings = {ASSET_TAGS = (); }; };
-		4C960C701BFEF2100084745E /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C960C6F1BFEF2100084745E /* TestViewController.m */; settings = {ASSET_TAGS = (); }; };
-		4C960C731BFEF8C40084745E /* TransparentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C960C721BFEF8C40084745E /* TransparentView.m */; settings = {ASSET_TAGS = (); }; };
-		4C960C761BFEF9F90084745E /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C960C751BFEF9F90084745E /* UIView+Size.m */; settings = {ASSET_TAGS = (); }; };
-		4C960C781BFF00E70084745E /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4C960C771BFF00E70084745E /* 6.jpeg */; settings = {ASSET_TAGS = (); }; };
-		4C960C7A1BFF04BB0084745E /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C960C791BFF04BB0084745E /* 9.jpg */; settings = {ASSET_TAGS = (); }; };
+		4C960C6D1BFEECF70084745E /* UINavigationBar+Transparent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C960C6C1BFEECF70084745E /* UINavigationBar+Transparent.m */; };
+		4C960C701BFEF2100084745E /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C960C6F1BFEF2100084745E /* TestViewController.m */; };
+		4C960C731BFEF8C40084745E /* TransparentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C960C721BFEF8C40084745E /* TransparentView.m */; };
+		4C960C761BFEF9F90084745E /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C960C751BFEF9F90084745E /* UIView+Size.m */; };
+		4C960C781BFF00E70084745E /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4C960C771BFF00E70084745E /* 6.jpeg */; };
+		4C960C7A1BFF04BB0084745E /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C960C791BFF04BB0084745E /* 9.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -447,7 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TransparentNavigationBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.51fanxing.TransparentNavigationBar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.51fanxing.FXBEST;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -458,7 +458,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TransparentNavigationBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.51fanxing.TransparentNavigationBar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.51fanxing.FXBEST;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -530,6 +530,7 @@
 				4C960C641BFEECCA0084745E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C960C651BFEECCA0084745E /* Build configuration list for PBXNativeTarget "TransparentNavigationBarTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +539,7 @@
 				4C960C671BFEECCA0084745E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C960C681BFEECCA0084745E /* Build configuration list for PBXNativeTarget "TransparentNavigationBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +548,7 @@
 				4C960C6A1BFEECCA0084745E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

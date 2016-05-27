@@ -27,7 +27,7 @@ static NSString *ID = @"cell";
     self.view.backgroundColor = [UIColor redColor];
 
 
-    UIImageView *topView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"6.jpeg"]];
+    UIImageView *topView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"9.jpg"]];
     topView.frame = CGRectMake(0, 0, self.view.frame.size.width, 200);
     
     TransparentView *transparentView = [TransparentView dropHeaderViewWithFrame:topView.frame contentView:topView stretchView:topView];
