@@ -35,7 +35,7 @@ static NSString *ID = @"cell";
     self.tableView.tableHeaderView = transparentView;
 
     [self.view addSubview:self.tableView];
-
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated
